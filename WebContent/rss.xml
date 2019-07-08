@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>PNR Today</title>
+	<link href="http://www.pnrtoday.com" />
+	<updated>2015-12-27</updated>
+	<author>
+		<name>Pradeep Mishra</name>
+	</author>
+	<entry>
+		<title>PNR Status</title>
+		<link href="www.pnrtoday.com/pnrStatus" />
+		<updated>2015-12-27</updated>
+		<summary>Check PNR Status for your booking
+		</summary>
+	</entry>
+	<entry>
+		<title>IRCTC PNR Status</title>
+		<link href="www.pnrtoday.com/irctcPnrStatus" />
+		<updated>2015-12-27</updated>
+		<summary>Check IRCTC PNR Status for your train booking
+		</summary>
+	</entry>
+	<entry>
+		<title>PNR Status</title>
+		<link href="www.pnrtoday.com/pnrStatus" />
+		<updated>2015-12-27</updated>
+		<summary>Check IRCTC PNR Status for your booking
+		</summary>
+	</entry>
+	<entry>
+		<title>Train Route Details</title>
+		<link href="http://www.pnrtoday.com/trainRoute" />
+		<updated>2015-12-27</updated>
+		<summary>Check IRCTC Train route details
+		</summary>
+	</entry>
+	<entry>
+		<title>Train Running Status</title>
+		<link href="http://www.pnrtoday.com/liveTrain" />
+		<updated>2015-12-27</updated>
+		<summary>Check train running status live
+		</summary>
+	</entry>
+	<entry>
+		<title>All Express Trains</title>
+		<link href="http://www.pnrtoday.com/allExpressTrains" />
+		<updated>2015-12-27</updated>
+		<summary>List of all Express Trains in India
+		</summary>
+	</entry>
+</feed>

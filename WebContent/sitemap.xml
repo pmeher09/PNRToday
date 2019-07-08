@@ -1,0 +1,34 @@
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>http://www.pnrtoday.com/</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/trainRoute</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/pnrStatus</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/allExpressTrains</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/irctcPnrStatus</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/checkPnrStatus</loc>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.pnrtoday.com/liveTrain</loc>
+		<changefreq>daily</changefreq>
+	</url>
+
+</urlset>

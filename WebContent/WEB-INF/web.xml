@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404Page.html</location>
+	</error-page>
+
+		<servlet-mapping>
+		<servlet-name>pnrStatus</servlet-name>
+		<url-pattern>/pnrStatus</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>pnrStatus</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>irctcPnrStatus</servlet-name>
+		<url-pattern>/irctcPnrStatus</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>irctcPnrStatus</servlet-name>
+		<jsp-file>/irctcPnrStatus.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>checkPnrStatus</servlet-name>
+		<url-pattern>/checkPnrStatus</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>checkPnrStatus</servlet-name>
+		<jsp-file>/checkPnrStatus.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>trainRoute</servlet-name>
+		<url-pattern>/trainRoute</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>trainRoute</servlet-name>
+		<jsp-file>/trainRoute.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>allExpressTrains</servlet-name>
+		<url-pattern>/allExpressTrains</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>allExpressTrains</servlet-name>
+		<jsp-file>/allExpressTrains.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>liveTrain</servlet-name>
+		<url-pattern>/liveTrain</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>liveTrain</servlet-name>
+		<jsp-file>/liveTrain.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>privacy</servlet-name>
+		<url-pattern>/privacy</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>privacy</servlet-name>
+		<jsp-file>/privacy.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>aboutUs</servlet-name>
+		<url-pattern>/aboutUs</url-pattern> <!-- Use this URL -->
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>aboutUs</servlet-name>
+		<jsp-file>/aboutUs.jsp</jsp-file>
+	</servlet>
+	
+
+</web-app>

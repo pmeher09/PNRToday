@@ -1,0 +1,371 @@
+html {
+	height: 100%;
+}
+a{
+   text-decoration: none;
+}
+
+a:HOVER{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.gradient {
+	background-color: #FCFEFF;
+	/* For WebKit (Safari, Chrome, etc) */
+	background: #FCFEFF
+		-webkit-gradient(linear, left top, left bottom, from(#53A2D4),
+		to(#FCFEFF)) no-repeat;
+	/* Mozilla,Firefox/Gecko */
+	background: #FCFEFF -moz-linear-gradient(top, #53A2D4, #FCFEFF)
+		no-repeat;
+	/* IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#53A2D4,
+		endColorstr=#FCFEFF) no-repeat;
+	/* IE 8 */
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#53A2D4, endColorstr=#53A2D4)"
+		no-repeat;
+}
+
+.gradient1 {
+	background-color: #FCFEFF;
+	/* For WebKit (Safari, Chrome, etc) */
+	background: #FCFEFF
+		-webkit-gradient(linear, left top, left bottom, from(#FFFFFF),
+		to(#cde8fc)) no-repeat;
+	/* Mozilla,Firefox/Gecko */
+	background: #FCFEFF -moz-linear-gradient(top, #FFFFFF, #cde8fc)
+		no-repeat;
+	/* IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF,
+		endColorstr=#cde8fc) no-repeat;
+	/* IE 8 */
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#cde8fc)"
+		no-repeat;
+}
+/* Background Gradient for Analagous Colors */
+.gradient2 {
+	background-color: #87FAEC;
+	/* For WebKit (Safari, Chrome, etc) */
+	background: #87FAEC
+		-webkit-gradient(linear, left top, left bottom, from(#87BBFA),
+		to(#87FAEC)) no-repeat;
+	/* Mozilla,Firefox/Gecko */
+	background: #87FAEC -moz-linear-gradient(top, #87BBFA, #87FAEC)
+		no-repeat;
+	/* IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#87BBFA,
+		endColorstr=#87FAEC) no-repeat;
+	/* IE 8 */
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=#87BBFA, endColorstr=#87BBFA)"
+		no-repeat;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #464a4f;
+	background-color: #fff;
+	width: 100%;
+	position: relative;
+	margin: auto;
+	height: 100%;
+}
+
+#container {
+	color: #464a4f;
+	padding: 0px 0px 0px 0px;
+}
+
+#header {
+	min-height: 55px;
+	padding: 10px 100px 10px 100px;
+	border-bottom: 0px solid #379cbd;
+}
+
+#menu {
+	float: left;
+	margin-top: 5px;
+	padding-left: 100px;
+}
+
+#menu a {
+	font: 20px verdana, helvetica, arial, sans-serif;
+	color: #072FCF;
+	text-decoration: none;
+	text-shadow: 3px 3px 5px #d6d6d6;
+}
+
+#menu a:hover {
+	font-size: 20px;
+	color: #ff0000;
+	text-decoration: underline;
+	font: bold;
+}
+
+#footer {
+	background: #2e3234;
+	color: #747474;
+	border-top: solid 0px #379cbd;
+	padding: 20px 100px 20px 100px;
+	bottom: 0;
+	min-height: 200px;
+}
+
+#footer ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 70px;
+}
+
+#footer ul li {
+	float: left;
+}
+
+#footer ul li a {
+	float: left;
+	text-decoration: none;
+	color: #ddd;
+	padding: 10px;
+	text-shadow: 0px 0px 0px #d6d6d6;
+}
+
+#footer ul li a:hover {
+	float: left;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+	text-shadow: 0px 0px 0px #d6d6d6;
+}
+
+#pnrstatusbox {
+	width: 700px;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid #c9e9f1;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12) !important;
+}
+
+#pnrstatusbox h1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 40px;
+	color: #145165;
+	font-weight: normal;
+	text-shadow: 3px 3px 5px #d6d6d6;
+}
+
+#pnrstatusbox_left {
+	margin-left: 20px;
+	width: 550px;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid #c9e9f1;
+	margin-top: 50px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12) !important;
+}
+
+#pnrdetails {
+	text-align: left;
+	padding: 50px 120px 10px 120px;
+	background: #fff;
+	border-bottom: 1px solid #def0f5;
+}
+
+#extracontent {
+	color: #555;
+	background: #ebf7fa;
+	border-top: 1px solid #e0e0e0;
+	text-align: left;
+	padding: 50px 100px 30px 100px;
+}
+#extracontent a{
+	color: blue;
+	font-weight: bold;
+}
+
+#extracontent1 {
+	color: #555;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	text-align: left;
+	padding: 50px 100px 30px 100px;
+}
+
+#extracontent2 {
+	color: white;
+	background: #276c9a;
+	border-top: 0px solid #e0e0e0;
+	text-align: left;
+	padding: 50px 100px 30px 100px;
+}
+
+#extracontent2 p, a {
+	color: white;
+}
+
+p, h2, h3, h4, h5, h6, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 25px;
+	color: #145165;
+	font-weight: normal;
+	text-shadow: 3px 3px 5px #d6d6d6;
+}
+
+img {
+	border: none;
+}
+
+.copyright {
+	border: 0px;
+	height: 1px;
+	width: 1px;
+}
+
+#logo {
+	width: 88px;
+	float: left;
+	margin: 73px 0px 0px 33px;
+}
+
+#logo-text {
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: normal;
+	float: left;
+	margin: 88px 0px 0px 0px;
+}
+
+.textbox {
+	background-color: #fff;
+	border: 1px solid #d5eff7;
+	box-shadow: 1px 1px 3px #d6d6d6 inset;
+	font-size: 26px;
+	color: #2392b1;
+	padding: 10px 10px
+}
+
+.button {
+	background-color: #2494b5;
+	border: 1px solid #d5eff7;
+	font-size: 25px;
+	color: #fff;
+	padding: 10px 10px
+}
+
+.button:hover {
+	background-color: #1e7893;
+	border: 1px solid #d5eff7;
+	font-size: px;
+	color: #eee;
+	padding: 10px 10px;
+	cursor: pointer;
+}
+
+table.table1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	color: #0e3947;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	radius: 3px;
+}
+
+table.table1 td {
+	border-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	text-align: left;
+	line-height: 17px;
+	font-size: 14px;
+}
+
+table.mytable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+	color: #0e3947;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	width: 90%;
+	radius: 3px;
+}
+
+table.mytable th {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #bce8f1;
+	background-color: #d9edf7;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+table.mytable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #bce8f1;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+table.mytable tr:nth-child(odd) {
+	background-color: #fafefe;
+}
+
+table.mytable tr:nth-child(even) {
+	background-color: #fff;
+}
+
+#question-home {
+	font-family: verdana, arial, sans-serif;
+	font-size: 22px;
+	color: #0e3947;
+	line-height: 35px;
+}
+
+#answer-home {
+	font-family: verdana, arial, sans-serif;
+	font-size: 16px;
+	color: #3c3c3c;
+	line-height: 30px;
+}
+
+#about_us {
+	font: 17px verdana, helvetica, arial, sans-serif;
+	text-align: center;
+	border: solid 2px #379cbd;
+	min-height: 700px;
+	padding: 30px;
+	background: #f1f9fe;
+}
+
+#about_us_header {
+	font: 36px verdana, helvetica, arial, sans-serif;
+	text-align: center;
+	min-height: 55px;
+	background-color: #93d3e3;
+	color: #333;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #B7B7B7;
+}
